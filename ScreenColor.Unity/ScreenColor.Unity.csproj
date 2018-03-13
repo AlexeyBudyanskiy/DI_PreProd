@@ -222,7 +222,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ScreenColor.Common\ScreenColor.Common.csproj">
-      <Project>{5152DC0C-E3F3-4CA4-A030-E0D5FDA65FBF}</Project>
+      <Project>{881c62b6-05b3-4f9d-8ffa-9519f5bc2d8a}</Project>
       <Name>ScreenColor.Common</Name>
     </ProjectReference>
   </ItemGroup>

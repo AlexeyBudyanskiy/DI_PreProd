@@ -7,9 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenColor.Ninject", "Scre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenColor.Autofac", "ScreenColor.Autofac\ScreenColor.Autofac.csproj", "{14EB7D89-63D7-4D22-99C8-8F77CACF5295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenColor.Common", "ScreenColor.Common\ScreenColor.Common.csproj", "{5152DC0C-E3F3-4CA4-A030-E0D5FDA65FBF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenColor.Unity", "ScreenColor.Unity\ScreenColor.Unity.csproj", "{AEC42C42-703B-4C1F-B556-493E36689539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenColor.Common", "ScreenColor.Common\ScreenColor.Common.csproj", "{881C62B6-05B3-4F9D-8FFA-9519F5BC2D8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenColor.NetCore", "ScreenColor.NetCore\ScreenColor.NetCore.csproj", "{5A26542E-0C6C-4237-A4AA-BEDB955DCF98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +27,18 @@ Global
 		{14EB7D89-63D7-4D22-99C8-8F77CACF5295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14EB7D89-63D7-4D22-99C8-8F77CACF5295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14EB7D89-63D7-4D22-99C8-8F77CACF5295}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5152DC0C-E3F3-4CA4-A030-E0D5FDA65FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5152DC0C-E3F3-4CA4-A030-E0D5FDA65FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5152DC0C-E3F3-4CA4-A030-E0D5FDA65FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5152DC0C-E3F3-4CA4-A030-E0D5FDA65FBF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AEC42C42-703B-4C1F-B556-493E36689539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AEC42C42-703B-4C1F-B556-493E36689539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEC42C42-703B-4C1F-B556-493E36689539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEC42C42-703B-4C1F-B556-493E36689539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881C62B6-05B3-4F9D-8FFA-9519F5BC2D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881C62B6-05B3-4F9D-8FFA-9519F5BC2D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881C62B6-05B3-4F9D-8FFA-9519F5BC2D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881C62B6-05B3-4F9D-8FFA-9519F5BC2D8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A26542E-0C6C-4237-A4AA-BEDB955DCF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A26542E-0C6C-4237-A4AA-BEDB955DCF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A26542E-0C6C-4237-A4AA-BEDB955DCF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A26542E-0C6C-4237-A4AA-BEDB955DCF98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
