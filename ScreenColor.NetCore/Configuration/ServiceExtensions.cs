@@ -10,8 +10,8 @@ namespace ScreenColor.NetCore.Configuration
             this IServiceCollection services)
         {
             //services.AddTransient<IColorService, BlueService>();
-            //services.AddScoped<IColorService, GreenService>();
-            services.AddSingleton<IColorService, RedService>();
+            services.AddScoped<IColorService, GreenService>();
+            //services.AddSingleton<IColorService, RedService>();
 
             return services;
         }

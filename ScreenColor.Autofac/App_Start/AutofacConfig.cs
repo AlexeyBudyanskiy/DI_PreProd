@@ -31,7 +31,7 @@ namespace ScreenColor.Autofac
             // OPTIONAL: Enable property injection into action filters.
             builder.RegisterFilterProvider();
 
-            builder.RegisterType<GreenService>().As<IColorService>().InstancePerLifetimeScope();
+            builder.RegisterType<RedService>().As<IColorService>().InstancePerLifetimeScope();
         }
 
     }
